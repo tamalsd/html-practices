@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admission From</title>
+
+    </head>
+    <body>
+        <Header>
+            <h1>Admission Form</h1>
+        </Header>
+
+        <form>
+            <fieldset>
+                <legend>Personal information</legend>
+
+                <label >Name: </label>
+                <input type="text" maxlength="30" required><br>
+                <label > Email: </label>
+                <input type="email" required><br>
+                <label >Date of birth: </label>
+                <input type="date" required><br>
+                <label >Gender</label>
+                <input type="radio" required>Male
+                <input type="radio" >Female <br>
+                <br>
+                <label >Phone Number: </label>
+                <input type="text" maxlength="11" required>
+
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Academic Information</legend>
+
+                <label >Previous Institution: </label>
+                <input type="text" required><br>
+                <label >GPA: </label>
+                <input type="text" required><br>
+                <label >Preferred department: </label>
+                <select required>
+                    <option>CSE</option>
+                    <option>EEE</option>
+                    <option>BBA</option>
+                    <option>LAW</option>
+
+                </select>
+                <br>
+                <label >Interest: </label>
+                <input type="checkbox" >Programming
+                <input type="checkbox" >Design
+                <input type="checkbox" >Research
+                <br><br>
+
+                <label >Upload Documents</label>
+                <input type="file" required><br><br>
+
+            </fieldset>
+            <br><br>
+
+            <input type="submit">
+            <input type="reset" >
+
+
+        </form>
+
+      
+
+        
+    </body>
+</html>
